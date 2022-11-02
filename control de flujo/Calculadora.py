@@ -21,13 +21,13 @@ if segundo == "Cadena":
     print("El valor ingresado no es un entero")
     exit()
 
-"""suma = primerNumero + segundoNumero #suma
+"""suma = primerNumero + segundoNumero 
 print("La suma de",primerNumero,"+",segundoNumero, "es =", suma)
 
-resta = primerNumero - segundoNumero #Resta
+resta = primerNumero - segundoNumero
 print("La resta de",primerNumero,"-",segundoNumero, "es =", resta)
 
-multiplicacion = primerNumero * segundoNumero #Multiplicacion
+multiplicacion = primerNumero * segundoNumero
 print("La Multiplicacion de",primerNumero,"x",segundoNumero, "es =", multiplicacion)
 
 division = primerNumero / segundoNumero #Division

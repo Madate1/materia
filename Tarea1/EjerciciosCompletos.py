@@ -60,10 +60,40 @@ else:
   print(num,"Este numero es impar") 
 """
 
-#Ejercicio 7: Crear un script que indique cuantas vocales tiene una palabra.
+"""#Ejercicio 7: Crear un script que indique cuantas vocales tiene una palabra.
 
-#Ejercicio 8: Crear un script que reciba una cantidad infinita de números hasta decir basta, luego que imprima la suma de los números ingresados.
-   
+frase = "El único modo de hacer un gran trabajo es amar lo que haces"
+vocal = 0
+
+for  x in frase:
+
+    y = x.lower()
+    if y == "a" or y == "e" or y == "i" or y == "o" or y == "u":
+        vocal += 1
+
+print("hay",vocal,"vocales")"""
+
+"""#Ejercicio 8: Crear un script que reciba una cantidad infinita de números hasta decir basta, luego que imprima la suma de los números ingresados.
+
+lista =[]
+print("Por favor ingrese numeros y para salir escriba basta")
+while True:
+    valor = input("Ingrese un valor: ")
+    if valor == "basta":
+        break
+    else:
+        try:
+            valor = int(valor)
+            lista.append(valor)
+        except:
+            print("Dato Invalido")
+            exit()
+resultado = 0
+for x in lista:
+    resultado += x
+
+print(resultado)  """
+
 """#Ejercicio 9: El objetivo del ejercicio es crear un sistema de calificaciones, tomando en cuenta la siguiente información:
 1. El usuario proporcionará un valor entre 0 y 10.
 2. Si está entre 9 y 10: imprimir una A

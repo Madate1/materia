@@ -8,7 +8,7 @@
 6. Si está entre 0 y menor a 6: imprimir una F
 7. Cualquier otro valor debe imprimir: Valor desconocido
 """
-nota = 0
+nota = 7
 
 if nota <= 9 and nota >= 10:
     print("Obtuvo una A")
